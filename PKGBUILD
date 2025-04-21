@@ -134,8 +134,8 @@ check() {
 package() {
   cd "${srcdir}/PrismLauncher-${pkgver}/build"
   DESTDIR="${pkgdir}" cmake --install .
-  mkdir -p "${pkgdir}/usr/share/doc/${pkgname}"
-  cp -v "${srcdir}/copyright" "${pkgdir}/usr/share/doc/${pkgname}/copyright"
+  mkdir -p "${pkgdir}/usr/share/doc/prismlauncher"
+  cp -v "${srcdir}/copyright" "${pkgdir}/usr/share/doc/prismlauncher/copyright"
 }
 
 # vim: set sw=2 expandtab:
