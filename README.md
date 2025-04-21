@@ -8,8 +8,8 @@ This is not endorsed by Prism Launcher or by Prism Launcher Cracked Projects.
 ## Instructions
 Firstly get the files to build it:
 ```
-git clone https://github.com/Hydriam/prismlauncher-cracked-make
-cd prismlauncher-cracked-make
+git clone https://github.com/Hydriam/prismlauncher-cracked-makedeb
+cd prismlauncher-cracked-makedeb
 ```
 Then we build it, in makedeb -s parametr installs dependency and -i installs the .deb to the system after building.
 ```
